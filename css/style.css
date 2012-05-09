@@ -7,6 +7,12 @@ a:hover{
     text-decoration: underline;
 }
 
+h1{
+    margin: -2px 0 8px 0;
+    font-size: 20px;
+    color: #666;
+}
+
 .container_24{
     border-left: 1px solid #dadada;
     border-right: 1px solid #dadada;
@@ -59,7 +65,7 @@ a:hover{
 }
 
 #nav li a{
-    padding: 0px 30px;
+    padding: 0px 25px;
     margin: 0;    
 }
 
@@ -72,7 +78,7 @@ a:hover{
 }
 
 #nav li:hover{
-    background-color: #cb1675;
+    background-color: #333333;
 }
 
 
@@ -174,6 +180,8 @@ div.button:hover{
 .feature{
     background-color: #f0f0f0;
     color: #000;
+    height: 350px;
+    position: relative;
 }
 
 .feature h2{
@@ -192,6 +200,9 @@ div.button:hover{
     background: url('../images/black-arrow.png') no-repeat right;
     padding-right: 12px;
     color: #000;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
 }
 
 
@@ -209,3 +220,131 @@ div.button:hover{
 }
 
 .spacer{ height: 10px; width: 100%;}
+
+
+
+#banner{
+    width: 100%;
+}
+
+
+
+
+/*Left nav */
+#left-nav   ul {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+#left-nav   ul a.active-trail{
+    font-weight: bold;
+}
+
+
+#left-nav ul li{
+    margin: 0 0 10px 0;
+    padding: 4px 5px 4px 5px;;
+    background: #fff url('../images/bg-left-menu-grey.png') repeat-x;
+    list-style-position: inside;
+    list-style-image: url('../images/menu-collapsed-grey.png');
+}
+
+#left-nav ul li.last{
+    margin:0;
+}
+
+#left-nav ul li.active, #left-nav ul li:hover{
+    background: #666 none;
+    list-style-image: url('../images/menu-collapsed.png');
+}
+
+
+#left-nav a {
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+}
+
+#left-nav ul li.active a, #left-nav ul li:hover a{
+    color: #fff;
+}
+
+
+
+
+
+/*banner */
+#banner-image{
+    float: left;
+    width: 600px;
+}
+
+#banner-text{
+    float: right;
+    width: 150px;
+    height: 210px;
+    color: #fff;
+    background-color: #cb1675;
+}
+
+#banner-text h2{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+/*content */
+#content{
+    color: #333;
+}
+
+#content a{
+    color: #e63592;
+}
+
+#content h2{
+    margin: 0;
+}
+
+#content p{
+    margin: 10px 0;
+}
+
+#content p.lead{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+/*blocks */
+.block{
+    background-color: #ECECEC;
+    margin-bottom: 10px;
+}
+
+.block h2{
+    background: url('../images/block-header.png') repeat-x;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin: 0;
+}
+
+.block-body{
+    padding: 5px;
+    font-size: 11px;
+}
+
+.block-body a{
+    background: url('../images/black-arrow.png') no-repeat left;
+padding-left: 7px;
+}
