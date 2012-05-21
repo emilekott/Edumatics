@@ -13,6 +13,17 @@ h1{
     color: #666;
 }
 
+h3{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 14px;
+    color: #333;
+    margin-bottom:0;
+}
 .container_24{
     border-left: 1px solid #dadada;
     border-right: 1px solid #dadada;
@@ -48,162 +59,41 @@ h1{
 }
 
 /*Top Navigation ==================================================== */
-#nav{
-    font-size: 13px;
+#strip{
     background-color: #61809e;
     margin-bottom: 10px;
+    height: 32px;
+
 }
 
-#nav ul{
-    list-style-type: none;
-}
-
-
-#nav a{
-    color: #fff;
-    text-decoration: none;
-}
-
-#nav li a{
-    padding: 0px 25px;
-    margin: 0;    
-}
-
-
-#nav li{
-    margin: 0;
-    padding:  6px 0;
-    float: left;
-    border-right: 1px solid #fff;
-}
-
-#nav li:hover{
-    background-color: #333333;
-}
-
-
-
-#nav li.active{
-    background-color: #cb1675;
-}
 
 
 
 
 /*hero banner */
 #hero{
-    height: 360px;
-    position: relative;
-    background-color: #333;
-}
-
-#hero #hero-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#hero #text-box{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 64px;
-    background: url('../images/blue-opaque.png') repeat;
-    color: #fff;
-}
-
-
-#hero #text-box-inner{
-    padding: 10px;
-}
-
-#hero #text-box-inner p, #hero h2{
-    margin: 0;
-}
-
-#hero a{
-    color: #fff;
-    padding-left: 7px;
-    background: url('../images/white-arrow.png') no-repeat left;
-}
-
-#hero h2{
-    font-size: 18px;
-}
-
-.button{
-    height: 64px;
-    width: 100%;
+    height: 300px;
+    background-color: #fff;
     margin-bottom: 10px;
-    font-size: 18px;
+    overflow: hidden;
 }
 
-.button a{
-    color: #fff;
-    display: block;
-    padding: 17px 0 0 25px;
-    height: 28px;
-    background: url('../images/big-arrow.png') no-repeat bottom right;
-    width: 180px;
-}
-
-
-.button a:hover{
-    text-decoration: none;
-}
-
-div.button:hover{
-    background: #cb1675 none;
-}
-
-
-/*buttons */
-.button-1{
-    background: #333 url('../images/button-1.png') repeat-x;
-}
-.button-2{
-    background: #333 url('../images/button-2.png') repeat-x;
-}
-.button-3{
-    background: #333 url('../images/button-3.png') repeat-x;
-}
-.button-4{
-    background: #333 url('../images/button-4.png') repeat-x;
-}
-.button-5{
-    background: #333 url('../images/button-5.png') repeat-x;
-}
-
-
-/*features */
-.feature{
-    background-color: #f0f0f0;
-    color: #000;
-    height: 350px;
+ul#accordion-slider{
+    margin: 0;
+    padding: 0;
+    list-style: none;
     position: relative;
 }
-
-.feature h2{
-    font-size: 14px;
-    margin: 10px;
-}
-
-.feature p{
-    font-size: 12px;
-    padding: 10px;
-    margin: 0;
+ul#accordion-slider li{
     display: block;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+    width: 185px;
+    height: 300px;
 }
 
-.feature a.text-link{
-    background: url('../images/black-arrow.png') no-repeat right;
-    padding-right: 12px;
-    color: #000;
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-}
+
 
 
 #footer{
@@ -262,6 +152,20 @@ div.button:hover{
     list-style-image: url('../images/menu-collapsed.png');
 }
 
+#left-nav ul li li{
+    background: #666 none;
+    margin: 0 0 0 5px;
+    
+}
+
+#left-nav ul li li:hover{
+    text-decoration: underline;
+}
+
+#left-nav ul ul{
+    display:none;
+}
+
 
 #left-nav a {
     font-weight: normal;
@@ -280,12 +184,12 @@ div.button:hover{
 /*banner */
 #banner-image{
     float: left;
-    width: 600px;
+    width: 550px;
 }
 
 #banner-text{
     float: right;
-    width: 150px;
+    width: 160px;
     height: 210px;
     color: #fff;
     background-color: #cb1675;
@@ -296,6 +200,36 @@ div.button:hover{
     padding: 10px;
     font-size: 20px;
     font-weight: normal;
+}
+
+
+/*features */
+.feature{
+    background-color: #f0f0f0;
+    color: #000;
+    height: 350px;
+    position: relative;
+}
+
+.feature h2{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.feature p{
+    font-size: 12px;
+    padding: 10px;
+    margin: 0;
+    display: block;
+}
+
+.feature a.text-link{
+    background: url('../images/black-arrow.png') no-repeat right;
+    padding-right: 12px;
+    color: #000;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
 }
 
 
@@ -346,5 +280,43 @@ div.button:hover{
 
 .block-body a{
     background: url('../images/black-arrow.png') no-repeat left;
-padding-left: 7px;
+    padding-left: 7px;
+}
+
+
+
+
+
+
+.divider{
+    margin: 20px 30px;
+    border-bottom: 1px solid #dadada;
+}
+
+table.contacts, table.partners{
+    width: 100%;
+    
+}
+
+table.contacts td, table.partners td{
+    padding: 10px;
+    border: 1px solid #dadada;
+}
+
+table.partners td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.image-cell{
+    text-align: center;
+}
+
+.logo-cell{
+    width: 200px;
+}
+
+
+img.logo{
+    float:left; margin: 10px 10px 10px 0;
 }
