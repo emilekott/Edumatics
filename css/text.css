@@ -9,7 +9,8 @@
 ----------------------------------------------------------------------------------------------------*/
 
 body {
-  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-size: 100%;
 }
 
 pre,
@@ -83,4 +84,8 @@ address,
 fieldset,
 figure {
   margin-bottom: 20px;
+}
+
+p{
+    font-size: 0.875em;
 }
