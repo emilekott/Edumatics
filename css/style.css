@@ -24,6 +24,12 @@ h4{
     color: #333;
     margin-bottom:0;
 }
+
+h5{
+    font-size: 0.8em;
+    color: #333;
+    margin-bottom:0;
+}
 .container_24{
     border-left: 1px solid #dadada;
     border-right: 1px solid #dadada;
@@ -318,4 +324,18 @@ table.partners td{
 
 img.logo{
     float:left; margin: 10px 10px 10px 0;
+}
+
+
+img.profile{
+    float:left;
+    width: 120px;
+    padding: 4px;
+    border: 1px solid #333;
+    margin: 0 5px 5px 0;
+}
+
+#content ul li{
+    list-style-position:inside;
+    font-size: 0.875em;
 }
