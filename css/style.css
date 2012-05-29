@@ -339,3 +339,54 @@ img.profile{
     list-style-position:inside;
     font-size: 0.875em;
 }
+
+
+#organo{
+    width: 710px;
+    height: 675px;
+    background: url('../images/organo.png') no-repeat;
+    position: relative;
+}
+
+#organo a{
+    position: absolute;
+    width: 100px;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+#organo .link1{
+    top:42px;
+    left: 300px;
+}
+
+#organo .link2{
+    top: 238px;
+    left: 568px;
+}
+
+#organo .link3{
+    top: 235px;
+    left: 25px;
+    color: #fff;
+}
+
+#organo .link4{
+    top: 560px;
+    left: 120px;
+    color: #fff;
+}
+
+#organo .link5{
+    top: 560px;
+    left: 466px;
+    color: #61809e;
+}
+
+#organo .link6{
+    top: 340px;
+    left: 300px;
+    color: #fff;
+}
